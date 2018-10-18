@@ -1,0 +1,964 @@
+button:active, button:focus {
+    outline: none !important;
+}
+
+textarea {
+    resize: none;
+}
+
+* {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+:active, :hover, :focus, input, textarea {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, #6d69ff 0%, #5f9bff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-green {
+    background: linear-gradient(90deg, #6fc918 0%, #80e71d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-orange {
+    background: linear-gradient(90deg, #fead2e 0%, #ffc15f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.c-navbar-sub-image {
+    position: static;
+}
+
+
+
+
+/* Logo Design */
+
+.faq-dropdown:first-child {
+    border-top: 1px solid #d2d2d2;
+}
+
+/* Blog */
+
+.blog-item {width: calc(50% - 30px)!important;}
+.blog-item-count a {color: rgb(0, 131, 255); text-decoration: none; font-weight: 600;}
+.blog-item-count a:hover {color: #5daefa;}
+
+/* Individual Industry */
+
+.our-client-carousel {
+    white-space: nowrap;
+}
+
+.owl-item {
+    opacity: 0;
+    transition: opacity 350ms;
+}
+
+.owl-item.active {
+    opacity: 1;
+}
+
+.infinity-logos .owl-item, .infinity-city .owl-item {
+    opacity: 1;
+}
+
+.owl-carousel.owl-theme.service-carousel .owl-stage-outer {
+    overflow: visible;
+}
+
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    margin: 5px 7px;
+    background: rgba(54, 82, 209, 0.1803921568627451);
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    transition: all 85ms cubic-bezier(.6, .04, .98, .335);
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #0083ff;
+    border: 2px solid #0083ff;
+}
+
+.w-slider-dot {
+    background-color: #b3daff;
+}
+
+.case-slider__nav .w-slider-dot {
+    margin: 0 5px;
+}
+
+.case-slider__nav .w-slider-dot {
+    background-color: #acbcd1;
+}
+
+.w-slider-dot.w-active {
+    background-color: #0083ff;
+    box-shadow: 0 11px 28px -3px rgba(0, 76, 236, .5)
+}
+
+.case-slider__nav .w-slider-dot.w-active {
+    background-color: #0083ff;
+    box-shadow: 0 4px 28px -3px rgba(0, 76, 236, .5)
+}
+
+.w-slider-nav.w-num > div {
+    font-weight: 600;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 40px;
+    color: #fff;
+}
+
+
+/* Pricing */
+
+.pricing-tabs-item:hover .pricing-tabs-item-l,
+.pricing-tabs-item:hover .pricing-tabs-item-r {
+    background-color: #d25fff!important;
+}
+.pricing-tabs-item-l:hover .pricing-tabs-item,
+.pricing-tabs-item-l:hover .pricing-tabs-item-r {
+    background-color: #ffa158!important;
+}
+.pricing-tabs-item-r:hover .pricing-tabs-item,
+.pricing-tabs-item-r:hover .pricing-tabs-item-l {
+    background-color: #5ed62f!important;
+}
+
+/* Case Study Logo */
+
+.section.section__case-hero, .section.section__case-logo, .section.section__review-hero {min-height: calc(100vh - 126px);}
+
+
+@media (min-width: 0px) {
+    .w-slider-nav.w-num > div {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+
+    .slider-nav {
+        margin-right: -4px;
+        margin-left: -4px;
+    }
+
+    .slide {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 345px) {
+    .c-navbar-logo.blog {
+        margin-left: -38px !important;
+    }
+}
+
+@media (min-width: 720px) {
+    .c-infinity-logos {
+        height: 160px;
+    }
+
+    .w-slider-nav.w-num > div {
+        font-size: 40px;
+        width: 80px;
+        height: 80px;
+        margin-right: 15px !important;
+        margin-left: 15px !important;
+    }
+
+    .slider-nav {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .slide {
+        padding-top: 30px;
+    }
+
+    /* Individual Industry */
+    .service-website-item {
+        max-width: calc(33.333% - 15px);
+    }
+
+}
+
+
+
+@media (max-width: 767px) {
+    .c-menu {
+        width: calc(100% - 20px);
+    }
+
+
+    #menu-icon-trigger {
+        padding: 12px 14px !important;
+    }
+
+    .menu-icon-wrapper {
+        margin-top: -1px !important;
+    }
+
+    .owl-item {
+        opacity: 1;
+    }
+    .owl-carousel.owl-theme.service-carousel .owl-stage-outer {
+        overflow: hidden;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 991px) {
+    .c-menu {
+        width: calc(100% - 30px);
+    }
+
+    .navbar-logo__img-small {opacity: 1;}
+
+
+
+
+    /* Blog */
+
+    .blog-item.parent {width: 100%!important;}
+}
+
+@media (max-width: 1049px) {
+    .navbar-logo__img-normal {
+        max-width: 185px;
+    }
+    .navbar-link {
+        padding: 11px 12px 8px 12px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .navbar-logo__img-normal {
+        max-width: 185px;
+    }
+
+    .navbar-link {
+        padding: 11px 12px 8px 12px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Home Page */
+    .container {
+        max-width: 1140px;
+    }
+
+    .hero-slider {
+        height: 730px;
+    }
+
+    .hero-row__col-left {
+    }
+
+    .hero-row__col {
+    }
+
+    .startup-img {
+        margin-left: 10px;
+    }
+
+    .macbook {
+        right: -42px;
+        width: 660px;
+    }
+
+    .b-2-col__left-start-up {
+        max-width: 480px;
+        min-width: 480px;
+    }
+
+    .b-2-col__right.b-2-col__right-move-up {
+        padding-left: 0;
+    }
+
+    .high-ranking-img {
+        right: 60px;
+    }
+
+    .great-design-img {
+        margin-left: 50px;
+    }
+
+    .bg-blue-logo {
+        top: 67px;
+        left: -19vw;
+        width: 49vw;
+    }
+
+    .bg-color-logo {
+        top: 780px;
+        right: -28vw;
+        width: 49vw;
+    }
+
+    .testimonials-bg {
+        width: 1570px;
+    }
+
+    .city-bg {
+        width: 1280px;
+    }
+
+    .great-design-img {
+        margin-top: 58px;
+        margin-left: -5px;
+    }
+
+    .s-hero-bg {
+        top: -8vw;
+        right: -22.3vw;
+        width: 71vw;
+        max-width: 840px;
+    }
+
+    .rocket-bg {
+        right: -19vw;
+    }
+
+
+
+
+    /* Individual Industry */
+    .seo-experts-img {
+        right: 30px;
+        width: 580px;
+    }
+
+    .individual-blue-bg {
+        top: -6.2vw;
+        right: -5vw;
+        width: 24.5vw;
+    }
+
+    .why-our-website-img {
+        width: 600px;
+        margin-top: 58px;
+        margin-left: -20px;
+    }
+
+    .seo-is-at-the-forefront-bg {
+        max-width: 270px;
+        top: -136px;
+    }
+
+    .why-our-website-design-img {
+        max-width: 270px;
+        bottom: -136px;
+    }
+
+    .cleaning-services-bg {
+        left: -360px;
+        max-width: 530px;
+    }
+
+    /* Case Study Logo */
+    .section.section__case-logo5 {
+        padding-top: 90px;
+    }
+
+    /* Case Study */
+    .case-study-hero-macbook {
+        width: 53vw;
+        max-width: none;
+        margin-top: 2vw;
+        margin-left: -5vw;
+    }
+
+    /* Industry */
+    .industries-2__bg1 {
+        width: 580px;
+    }
+}
+
+@media (min-width: 1400px) {
+    /* Top Navbar */
+    .c-container-navbar {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    /* Home Page */
+    .container {
+        max-width: 1140px;
+    }
+
+    .hero-slider {
+        height: 760px;
+    }
+
+    .hero-row__col-left {
+    }
+
+    .hero-row__col {
+    }
+
+    .startup-img {
+        width: 640px;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+
+    .macbook {
+        right: -45px;
+        width: 670px;
+        padding-top: 5px;
+    }
+
+    .b-2-col__left-start-up {
+        max-width: 480px;
+        min-width: 480px;
+    }
+
+    .b-2-col__right.b-2-col__right-move-up {
+        padding-left: 0;
+    }
+
+    .high-ranking-img {
+        right: 107px;
+        width: 690px;
+    }
+
+    .great-design-img {
+        margin-left: 50px;
+    }
+
+    .bg-blue-logo {
+        top: 50px;
+        left: -24vw;
+        width: 58vw;
+    }
+
+    .bg-color-logo {
+        top: 780px;
+        right: -36vw;
+        width: 58vw;
+    }
+
+    .testimonials-bg {
+        width: 1360px;
+    }
+
+    .city-bg {
+        width: 1280px;
+    }
+
+    .great-design-img {
+        margin-top: 58px;
+        margin-left: -5px;
+    }
+
+    .s-hero-bg {
+        top: -8vw;
+        right: -22.3vw;
+        width: 71vw;
+        max-width: 840px;
+    }
+
+    .rocket-bg {
+        right: -19vw;
+    }
+
+
+    /* Individual Industry */
+    .seo-experts-img {
+        right: 50px;
+        width: 650px;
+        margin-top: -3vh;
+    }
+
+    .free-resources-bg {
+        left: -16vw;
+        bottom: -26vh;
+        max-width: 21vw;
+    }
+
+    .individual-blue-bg {
+        top: -6.2vw;
+        right: -9vw;
+        width: 23.5vw;
+    }
+
+    .why-our-website-img {
+        width: 700px;
+        margin-top: 67px;
+        margin-left: -20px;
+    }
+
+    .cleaning-services-bg {
+        left: -490px;
+        max-width: 670px;
+    }
+
+    /* Case Study */
+    .case-study-hero-macbook {
+        width: 51vw;
+        max-width: none;
+        margin-top: 2vw;
+        margin-left: -8vw;
+    }
+
+    /* Industry */
+    .industries-2__bg1 {
+        width: 590px;
+        margin-left: 69px;
+    }
+}
+
+@media (min-width: 1600px) {
+    /* Top Navbar */
+    /* Home Page */
+    .container {
+        max-width: 1240px;
+    }
+
+    .hero-slider {
+        height: 850px;
+    }
+
+    .hero-row__col-left {
+    }
+
+    .hero-row__col {
+    }
+
+    .startup-img {
+        width: 740px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    .high-ranking-img {
+        top: -10px;
+        right: 100px;
+        width: 740px;
+    }
+
+    .macbook {
+        right: -97px;
+        width: 800px;
+        padding-top: 5px;
+    }
+
+    .great-design-img {
+        width: 720px;
+        margin-top: 58px;
+        margin-left: -10px;
+    }
+
+    .high-ranking-img {
+        top: 40px;
+        right: 40px;
+        width: 600px;
+    }
+
+    .b-2-col__right {
+        padding-left: 30px;
+    }
+
+    .s-hero-bg {
+        top: -2vw;
+        right: -23.3vw;
+        width: 71vw;
+        max-width: 960px;
+    }
+
+    .rocket-bg {
+        right: -16vw;
+    }
+
+    .bg-blue-logo {
+        top: 60px;
+        left: -20vw;
+    }
+
+    .bg-color-logo {
+        top: 780px;
+        right: -30vw;
+    }
+
+    .b-2-col__right-keep-up {
+        padding-left: 120px;
+    }
+
+    .testimonials-bg {
+        width: 1410px;
+    }
+
+
+    /* Individual Industry */
+    .service-websites {
+        width: 115%;
+        margin-left: -3vw;
+    }
+
+    .seo-experts-img {
+        right: 50px;
+        width: 730px;
+    }
+
+    .individual-blue-bg {
+        top: -6.2vw;
+        right: -5vw;
+        width: 24.5vw;
+    }
+
+    .why-our-website-img {
+        width: 740px;
+        margin-top: 20px;
+        margin-left: -70px;
+    }
+
+    .b-2-col__why-our-website-design {
+        max-width: 580px;
+        min-width: 580px;
+    }
+
+    .cleaning-services-bg {
+        left: -540px;
+        max-width: 730px;
+    }
+
+    /* Case Study */
+    .case-study-hero-macbook {
+        width: 48vw;
+        max-width: none;
+        margin-top: 0;
+        margin-left: -8vw;
+    }
+
+    .case-study-img3 {
+        position: relative;
+        width: 58vw;
+        max-width: none;
+        margin-left: -12vw;
+    }
+
+    .case-logo-1bg {
+        width: 17vw;
+    }
+
+    /* Industry */
+    .industries-2__bg1 {
+        width: 720px;
+    }
+
+
+
+@media (min-width: 1800px) {
+
+    /* Home */
+
+    .hero-row__col-left {
+    }
+
+    .hero-row__col {
+    }
+
+    /* Case Study */
+    .case-study-hero-macbook {
+        width: 48vw;
+        max-width: none;
+        margin-top: 0;
+        margin-left: -15vw;
+    }
+
+    .case-study-img3 {
+        position: relative;
+        width: 59vw;
+        max-width: none;
+        margin-left: -18vw;
+    }
+
+    /* Industries */
+    .industries-hero__bg-1 {
+        left: -244px;
+        top: -260px;
+        max-width: 510px;
+    }
+
+    .industries-hero-img {
+        width: 650px;
+    }
+
+    .section.section__industries-hero {
+        padding-top: 4vw;
+        padding-bottom: 3vw;
+    }
+
+    .industries-1__bg1 {
+        top: -460px;
+        right: -430px;
+        width: 800px;
+    }
+
+    .industries-2__bg1 {
+        width: 852px;
+        margin-left: 90px;
+    }
+
+    .industries-2__bg2 {
+        left: -172px;
+        top: -150px;
+        width: 450px;
+    }
+
+    .section.section__case-hero, .section.section__case-logo, .section.section__review-hero {
+        min-height: 800px;
+    }
+
+    /* Top Navbar */
+    /* Home Page */
+    /* Individual Industry */
+    .cleaning-services-bg {
+        left: -590px;
+        max-width: 870px;
+        top: 10px;
+    }
+
+}
+}
+
+
+
+/* Arrows Animation */
+
+.btn-prev, .btn-next {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    stroke: inherit;
+    opacity: .4;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+}
+
+.btn-prev:after, .btn-next:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 15px;
+    position: absolute;
+    top: 0;
+}
+
+.btn-prev .utouch-icon, .btn-next .utouch-icon {
+    color: #0083ff;
+    fill: #0083ff;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    width: 36px;
+    height: 36px;
+}
+
+.btn-prev .icon-hover, .btn-next .icon-hover {
+    opacity: 0;
+    position: absolute;
+}
+
+.btn-prev:hover, .btn-next:hover {
+    opacity: 1;
+}
+
+.btn-prev:hover .icon-hover, .btn-next:hover .icon-hover {
+    opacity: 1;
+}
+
+.btn-prev .icon-hover {
+    left: 0;
+}
+
+.btn-next .icon-hover {
+    right: auto;
+}
+
+.btn-next:hover {
+    margin-left: 5px;
+    margin-right: -5px;
+}
+
+.btn-prev:hover {
+    margin-left: -5px;
+    margin-right: 5px;
+}
+
+.btn-prev.with-bg, .btn-next.with-bg {
+    opacity: .6;
+    background-color: #fff;
+}
+
+.btn-prev.with-bg .utouch-icon, .btn-next.with-bg .utouch-icon {
+    fill: #0083ff;
+}
+
+.btn-prev.with-bg.rounded, .btn-next.with-bg.rounded {
+    border-radius: 30px;
+}
+
+.btn-prev.with-bg.round, .btn-next.with-bg.round {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    border-radius: 100%;
+}
+
+.btn-prev.with-bg.round .utouch-icon, .btn-next.with-bg.round .utouch-icon {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.btn-prev.with-bg.bg-black, .btn-next.with-bg.bg-black {
+    background-color: #121921;
+}
+
+.btn-prev.with-bg.bg-black:hover, .btn-next.with-bg.bg-black:hover {
+    background-color: #0083ff;
+}
+
+.btn-prev.with-bg {
+    border-radius: 0 30px 30px 0;
+    padding: 7px 0 0 15px;
+}
+
+.btn-prev.with-bg .icon-hover {
+    left: 16px;
+}
+
+.btn-prev.with-bg:hover {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 7px 15px 0 15px;
+    opacity: 1;
+}
+
+.btn-prev.with-bg.rounded:hover {
+    padding: 7px 20px 0 15px;
+}
+
+.btn-next.with-bg {
+    border-radius: 30px 0 0 30px;
+    padding: 7px 15px 0 0;
+}
+
+.btn-next.with-bg .icon-hover {
+    right: 16px;
+}
+
+.btn-next.with-bg:hover {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 7px 15px 0 15px;
+    opacity: 1;
+}
+
+.btn-next.with-bg.rounded:hover {
+    padding: 7px 15px 0 20px;
+}
+
+.btn-next:after {
+    left: -15px;
+}
+
+.btn-prev:after {
+    right: -15px;
+}
+
+.btn-prev.btn--style,
+.btn-next.btn--style {
+    padding: 7px 40px;
+    border-radius: 30px;
+    background-color: #ecf5fe;
+    opacity: 1;
+    text-transform: uppercase;
+    color: #6987ab;
+    font-weight: 700;
+}
+
+.btn-prev.btn--style span,
+.btn-next.btn--style span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn-prev.btn--style .utouch-icon,
+.btn-next.btn--style .utouch-icon {
+    fill: #6987ab;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn-prev.btn--style .icon-hover,
+.btn-next.btn--style .icon-hover {
+    right: auto;
+    left: auto;
+}
+
+.btn-prev.btn--style:hover,
+.btn-next.btn--style:hover {
+    color: #0083ff;
+    background-color: #fff;
+    -webkit-box-shadow: 10px 0 50px rgba(0, 131, 255, 0.15);
+    box-shadow: 10px 0 50px rgba(0, 131, 255, 0.15);
+}
+
+.btn-prev.btn--style:hover .utouch-icon, .btn-next.btn--style:hover .utouch-icon {
+    fill: #0083ff;
+}
+
+.more-arrow .btn-next .utouch-icon {
+    fill: #6987ab;
+    width: 26px;
+    height: 26px;
+}
+
+
+
+
+
+
+
+
+
